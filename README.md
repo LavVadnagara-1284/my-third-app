@@ -1,3 +1,43 @@
+# User and Book Management App
+
+A NestJS-based API for managing users and books. This project demonstrates NestJS features like controllers, modules, and middleware.
+
+## Features
+- **User Management**: Retrieve and add users.
+- **Book Management**: Retrieve and add books.
+- **Middleware Usage**: Demonstrates middleware functionality.
+- **TypeScript Support**: Fully written in TypeScript.
+- **Modular Architecture**: Organized using feature-based modules.
+- **RESTful API**: Follows REST principles for structured API design.
+
+## Installation
+
+### Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/user-book-app.git
+   cd user-book-app
+   ```
+
+## API Endpoints
+
+### Users
+| Method | Endpoint  | Description       |
+| ------ | --------- | ----------------- |
+| GET    | `/users`  | Get all users     |
+| POST   | `/users`  | Add a new user    |
+
+### Books
+| Method | Endpoint | Description    |
+| ------ | -------- | -------------- |
+| GET    | `/book`  | Get all books  |
+| POST   | `/book`  | Add a new book |
+
+## Technologies Used
+- **NestJS** - Framework for scalable Node.js applications
+- **TypeScript** - Typed JavaScript for better code quality
+- **Node.js** - Runtime environment
+- **ESLint & Prettier** - Code linting and formatting
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
